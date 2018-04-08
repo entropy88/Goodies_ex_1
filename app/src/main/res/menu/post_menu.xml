@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:title="@string/Feed"
+    android:id="@+id/action_feed"
+    android:icon="@mipmap/feed_1"/>
+    <item
+        android:title="@string/scanner"
+        android:id="@+id/action_scanner"
+        android:icon="@mipmap/scanner_0"/>
+    <item
+        android:title="@string/gifts"
+        android:id="@+id/action_gifts"
+        android:icon="@mipmap/gifts_0"/>
+    <item
+        android:title="@string/profile"
+        android:id="@+id/action_profile"
+        android:icon="@mipmap/profile_0"/>
+
+
+</menu>

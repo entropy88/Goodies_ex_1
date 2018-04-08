@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Goodies_ex</string>
+    <string name="Feed">feed</string>
+    <string name="search">search</string>
+    <string name="scanner">scanner</string>
+    <string name="gifts">gifts</string>
+    <string name="profile">profile</string>
+</resources>
