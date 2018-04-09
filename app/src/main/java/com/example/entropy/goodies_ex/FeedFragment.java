@@ -18,7 +18,7 @@ public class FeedFragment extends Fragment {
         View view= inflater.inflate(R.layout.feed_fragment_layout,container,false);
         final ViewPager vp = (ViewPager) view.findViewById(R.id.view_pager_tab);
         TabLayout tabLayout = (TabLayout) view.findViewById(R.id.tab_layout);
-        tabLayout.addTab(tabLayout.newTab().setText("STORIES"));
+            tabLayout.addTab(tabLayout.newTab().setText("STORIES"));
         tabLayout.addTab(tabLayout.newTab().setText("CAMPAIGNS"));
 
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
