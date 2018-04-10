@@ -2,6 +2,7 @@ package com.example.entropy.goodies_ex;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
@@ -20,8 +21,10 @@ public class FeedFragment extends Fragment {
         TabLayout tabLayout = (TabLayout) view.findViewById(R.id.tab_layout);
             tabLayout.addTab(tabLayout.newTab().setText("STORIES"));
         tabLayout.addTab(tabLayout.newTab().setText("CAMPAIGNS"));
+        tabLayout.setTextAlignment(View.TEXT_ALIGNMENT_CENTER);
+        tabLayout.setSelectedTabIndicatorColor(getResources().getColor(R.color.whiteText));
+        tabLayout.setTabGravity(TabLayout.TEXT_ALIGNMENT_GRAVITY);
 
-        tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
 
         final PagerAdapter adapter = new PagerAdapter
