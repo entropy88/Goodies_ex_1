@@ -10,13 +10,16 @@ public class Post {
     private String name;
     private String placeAndDate;
     private String content;
+    private int imageId;
+    private int profileImageId;
 
 
-    public Post (String name, String placeAndDate, String content) {
+    public Post (String name, String placeAndDate, String content, int imageId, int profileImageId) {
         this.name = name;
         this.placeAndDate = placeAndDate;
         this.content = content;
-
+        this.imageId= imageId;
+        this.profileImageId=profileImageId;
 
     }
 
@@ -31,6 +34,10 @@ public class Post {
     public void setContent(String content) {
         this.content = content;
     }
+    public void setImageId(int imageId) {
+        this.imageId = imageId;
+    }
+    public void setProfileImageId (int profileImageId){this.profileImageId=profileImageId; }
 
 
     public String getName() {
@@ -44,6 +51,8 @@ public class Post {
     public String getContent() {
         return content;
     }
+    public int getImageId () {return imageId; }
+    public int getProfileImageId () {return profileImageId; }
 
 
 
