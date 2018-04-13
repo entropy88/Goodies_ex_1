@@ -1,8 +1,11 @@
 <resources>
     <string name="app_name">Goodies_ex</string>
-    <string name="Feed">feed</string>
+    <string name="Feed">FEED</string>
     <string name="search">search</string>
-    <string name="scanner">scanner</string>
-    <string name="gifts">gifts</string>
-    <string name="profile">profile</string>
+    <string name="scanner">SCANNER</string>
+    <string name="gifts">GIFTS</string>
+    <string name="profile">PROFILE</string>
+    <string name="action1">Action 1</string>
+    <string name="action2">Action 2</string>
+    <string name="send_gift">send a gift</string>
 </resources>

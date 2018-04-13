@@ -4,4 +4,5 @@
     <color name="colorPrimaryDark">#c91f20</color>
     <color name="colorAccent">#ea2425</color>
     <color name="whiteText">#ffffff</color>
+    <color name="fadedText">#cac5c5</color>
 </resources>
